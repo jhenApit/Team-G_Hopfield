@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace Hopfield.Methods
 {
     internal class MatrixMultiplication
-    {
+    {   
     }
 }
