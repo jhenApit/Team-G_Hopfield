@@ -61,13 +61,6 @@
             I00.UseVisualStyleBackColor = false;
             I00.Click += new System.EventHandler(this.I00_Click);
             // 
-            // Reply
-            // 
-            this.Reply.Location = new System.Drawing.Point(58, 403);
-            this.Reply.Name = "Reply";
-            this.Reply.Size = new System.Drawing.Size(376, 36);
-            this.Reply.TabIndex = 45;
-            // 
             // I01
             // 
             I01.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -78,6 +71,7 @@
             I01.TabIndex = 47;
             I01.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I01.UseVisualStyleBackColor = false;
+            I01.Click += new System.EventHandler(this.I01_Click);
             // 
             // I02
             // 
@@ -89,6 +83,7 @@
             I02.TabIndex = 48;
             I02.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I02.UseVisualStyleBackColor = false;
+            I02.Click += new System.EventHandler(this.I02_Click);
             // 
             // I03
             // 
@@ -100,6 +95,7 @@
             I03.TabIndex = 49;
             I03.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I03.UseVisualStyleBackColor = false;
+            I03.Click += new System.EventHandler(this.I03_Click);
             // 
             // I04
             // 
@@ -111,6 +107,7 @@
             I04.TabIndex = 50;
             I04.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I04.UseVisualStyleBackColor = false;
+            I04.Click += new System.EventHandler(this.I04_Click);
             // 
             // I05
             // 
@@ -122,6 +119,7 @@
             I05.TabIndex = 51;
             I05.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I05.UseVisualStyleBackColor = false;
+            I05.Click += new System.EventHandler(this.I05_Click);
             // 
             // I06
             // 
@@ -133,6 +131,7 @@
             I06.TabIndex = 52;
             I06.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I06.UseVisualStyleBackColor = false;
+            I06.Click += new System.EventHandler(this.I06_Click);
             // 
             // I07
             // 
@@ -144,6 +143,7 @@
             I07.TabIndex = 53;
             I07.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I07.UseVisualStyleBackColor = false;
+            I07.Click += new System.EventHandler(this.I07_Click);
             // 
             // I08
             // 
@@ -155,6 +155,14 @@
             I08.TabIndex = 54;
             I08.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I08.UseVisualStyleBackColor = false;
+            I08.Click += new System.EventHandler(this.I08_Click);
+            // 
+            // Reply
+            // 
+            this.Reply.Location = new System.Drawing.Point(58, 403);
+            this.Reply.Name = "Reply";
+            this.Reply.Size = new System.Drawing.Size(376, 36);
+            this.Reply.TabIndex = 45;
             // 
             // Form1
             // 
