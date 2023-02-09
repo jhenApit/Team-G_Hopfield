@@ -175,13 +175,6 @@
             I08.UseVisualStyleBackColor = false;
             I08.Click += new System.EventHandler(this.I00_Click);
             // 
-            // Reply
-            // 
-            this.Reply.Location = new System.Drawing.Point(58, 403);
-            this.Reply.Name = "Reply";
-            this.Reply.Size = new System.Drawing.Size(376, 36);
-            this.Reply.TabIndex = 45;
-            // 
             // O08
             // 
             O08.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -270,6 +263,13 @@
             O01.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             O01.UseVisualStyleBackColor = false;
             // 
+            // Reply
+            // 
+            this.Reply.Location = new System.Drawing.Point(58, 278);
+            this.Reply.Name = "Reply";
+            this.Reply.Size = new System.Drawing.Size(622, 36);
+            this.Reply.TabIndex = 45;
+            // 
             // O00
             // 
             O00.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -277,7 +277,7 @@
             O00.Location = new System.Drawing.Point(443, 42);
             O00.Name = "O00";
             O00.Size = new System.Drawing.Size(75, 57);
-            O00.TabIndex = 55;
+            O00.TabIndex = 64;
             O00.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             O00.UseVisualStyleBackColor = false;
             // 
@@ -285,8 +285,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(748, 558);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(748, 405);
+            this.Controls.Add(O00);
             this.Controls.Add(O08);
             this.Controls.Add(O07);
             this.Controls.Add(O06);
@@ -295,7 +296,6 @@
             this.Controls.Add(O03);
             this.Controls.Add(O02);
             this.Controls.Add(O01);
-            this.Controls.Add(O00);
             this.Controls.Add(I08);
             this.Controls.Add(I07);
             this.Controls.Add(I06);
