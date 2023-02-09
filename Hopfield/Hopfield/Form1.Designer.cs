@@ -37,6 +37,15 @@
             System.Windows.Forms.Button I06;
             System.Windows.Forms.Button I07;
             System.Windows.Forms.Button I08;
+            System.Windows.Forms.Button O08;
+            System.Windows.Forms.Button O07;
+            System.Windows.Forms.Button O06;
+            System.Windows.Forms.Button O05;
+            System.Windows.Forms.Button O04;
+            System.Windows.Forms.Button O03;
+            System.Windows.Forms.Button O02;
+            System.Windows.Forms.Button O01;
+            System.Windows.Forms.Button O00;
             this.Reply = new System.Windows.Forms.Label();
             I00 = new System.Windows.Forms.Button();
             I01 = new System.Windows.Forms.Button();
@@ -47,6 +56,15 @@
             I06 = new System.Windows.Forms.Button();
             I07 = new System.Windows.Forms.Button();
             I08 = new System.Windows.Forms.Button();
+            O08 = new System.Windows.Forms.Button();
+            O07 = new System.Windows.Forms.Button();
+            O06 = new System.Windows.Forms.Button();
+            O05 = new System.Windows.Forms.Button();
+            O04 = new System.Windows.Forms.Button();
+            O03 = new System.Windows.Forms.Button();
+            O02 = new System.Windows.Forms.Button();
+            O01 = new System.Windows.Forms.Button();
+            O00 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // I00
@@ -71,7 +89,7 @@
             I01.TabIndex = 47;
             I01.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I01.UseVisualStyleBackColor = false;
-            I01.Click += new System.EventHandler(this.I01_Click);
+            I01.Click += new System.EventHandler(this.I00_Click);
             // 
             // I02
             // 
@@ -83,7 +101,7 @@
             I02.TabIndex = 48;
             I02.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I02.UseVisualStyleBackColor = false;
-            I02.Click += new System.EventHandler(this.I02_Click);
+            I02.Click += new System.EventHandler(this.I00_Click);
             // 
             // I03
             // 
@@ -95,7 +113,7 @@
             I03.TabIndex = 49;
             I03.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I03.UseVisualStyleBackColor = false;
-            I03.Click += new System.EventHandler(this.I03_Click);
+            I03.Click += new System.EventHandler(this.I00_Click);
             // 
             // I04
             // 
@@ -107,7 +125,7 @@
             I04.TabIndex = 50;
             I04.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I04.UseVisualStyleBackColor = false;
-            I04.Click += new System.EventHandler(this.I04_Click);
+            I04.Click += new System.EventHandler(this.I00_Click);
             // 
             // I05
             // 
@@ -119,7 +137,7 @@
             I05.TabIndex = 51;
             I05.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I05.UseVisualStyleBackColor = false;
-            I05.Click += new System.EventHandler(this.I05_Click);
+            I05.Click += new System.EventHandler(this.I00_Click);
             // 
             // I06
             // 
@@ -131,7 +149,7 @@
             I06.TabIndex = 52;
             I06.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I06.UseVisualStyleBackColor = false;
-            I06.Click += new System.EventHandler(this.I06_Click);
+            I06.Click += new System.EventHandler(this.I00_Click);
             // 
             // I07
             // 
@@ -143,7 +161,7 @@
             I07.TabIndex = 53;
             I07.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I07.UseVisualStyleBackColor = false;
-            I07.Click += new System.EventHandler(this.I07_Click);
+            I07.Click += new System.EventHandler(this.I00_Click);
             // 
             // I08
             // 
@@ -155,7 +173,7 @@
             I08.TabIndex = 54;
             I08.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I08.UseVisualStyleBackColor = false;
-            I08.Click += new System.EventHandler(this.I08_Click);
+            I08.Click += new System.EventHandler(this.I00_Click);
             // 
             // Reply
             // 
@@ -164,12 +182,120 @@
             this.Reply.Size = new System.Drawing.Size(376, 36);
             this.Reply.TabIndex = 45;
             // 
+            // O08
+            // 
+            O08.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O08.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O08.Location = new System.Drawing.Point(605, 168);
+            O08.Name = "O08";
+            O08.Size = new System.Drawing.Size(75, 57);
+            O08.TabIndex = 63;
+            O08.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O08.UseVisualStyleBackColor = false;
+            // 
+            // O07
+            // 
+            O07.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O07.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O07.Location = new System.Drawing.Point(524, 168);
+            O07.Name = "O07";
+            O07.Size = new System.Drawing.Size(75, 57);
+            O07.TabIndex = 62;
+            O07.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O07.UseVisualStyleBackColor = false;
+            // 
+            // O06
+            // 
+            O06.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O06.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O06.Location = new System.Drawing.Point(443, 168);
+            O06.Name = "O06";
+            O06.Size = new System.Drawing.Size(75, 57);
+            O06.TabIndex = 61;
+            O06.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O06.UseVisualStyleBackColor = false;
+            // 
+            // O05
+            // 
+            O05.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O05.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O05.Location = new System.Drawing.Point(605, 105);
+            O05.Name = "O05";
+            O05.Size = new System.Drawing.Size(75, 57);
+            O05.TabIndex = 60;
+            O05.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O05.UseVisualStyleBackColor = false;
+            // 
+            // O04
+            // 
+            O04.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O04.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O04.Location = new System.Drawing.Point(524, 105);
+            O04.Name = "O04";
+            O04.Size = new System.Drawing.Size(75, 57);
+            O04.TabIndex = 59;
+            O04.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O04.UseVisualStyleBackColor = false;
+            // 
+            // O03
+            // 
+            O03.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O03.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O03.Location = new System.Drawing.Point(443, 105);
+            O03.Name = "O03";
+            O03.Size = new System.Drawing.Size(75, 57);
+            O03.TabIndex = 58;
+            O03.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O03.UseVisualStyleBackColor = false;
+            // 
+            // O02
+            // 
+            O02.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O02.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O02.Location = new System.Drawing.Point(605, 42);
+            O02.Name = "O02";
+            O02.Size = new System.Drawing.Size(75, 57);
+            O02.TabIndex = 57;
+            O02.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O02.UseVisualStyleBackColor = false;
+            // 
+            // O01
+            // 
+            O01.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O01.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O01.Location = new System.Drawing.Point(524, 42);
+            O01.Name = "O01";
+            O01.Size = new System.Drawing.Size(75, 57);
+            O01.TabIndex = 56;
+            O01.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O01.UseVisualStyleBackColor = false;
+            // 
+            // O00
+            // 
+            O00.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O00.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            O00.Location = new System.Drawing.Point(443, 42);
+            O00.Name = "O00";
+            O00.Size = new System.Drawing.Size(75, 57);
+            O00.TabIndex = 55;
+            O00.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            O00.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(748, 558);
+            this.Controls.Add(O08);
+            this.Controls.Add(O07);
+            this.Controls.Add(O06);
+            this.Controls.Add(O05);
+            this.Controls.Add(O04);
+            this.Controls.Add(O03);
+            this.Controls.Add(O02);
+            this.Controls.Add(O01);
+            this.Controls.Add(O00);
             this.Controls.Add(I08);
             this.Controls.Add(I07);
             this.Controls.Add(I06);
@@ -182,7 +308,7 @@
             this.Controls.Add(this.Reply);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hopfield";
             this.TransparencyKey = System.Drawing.Color.Navy;
             this.ResumeLayout(false);
 
