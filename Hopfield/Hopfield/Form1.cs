@@ -6,5 +6,11 @@ namespace Hopfield
         {
             InitializeComponent();
         }
+
+        private void I00_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.BackColor = Color.Black;
+        }
     }
 }
