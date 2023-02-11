@@ -138,6 +138,7 @@
             this.t.Name = "t";
             this.t.Size = new System.Drawing.Size(451, 47);
             this.t.TabIndex = 71;
+            this.t.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Calculate
             // 
