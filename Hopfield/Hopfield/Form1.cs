@@ -105,15 +105,11 @@ namespace Hopfield
             Button O08 = (Button)Controls.Find("O08", true)[0];
 
 
-            O00.BackColor = (network.threshold[0] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O01.BackColor = (network.threshold[1] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O02.BackColor = (network.threshold[2] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O03.BackColor = (network.threshold[3] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O04.BackColor = (network.threshold[4] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O05.BackColor = (network.threshold[5] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O06.BackColor = (network.threshold[6] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O07.BackColor = (network.threshold[7] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O08.BackColor = (network.threshold[8] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            Control[] controls = new Control[] { O00, O01, O02, O03, O04, O05, O06, O07, O08 };
+            for (int i = 0; i < controls.Length; i++)
+            {
+                controls[i].BackColor = (network.threshold[i] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            }
         }
 
         private void Clear_Click(object sender, EventArgs e)
