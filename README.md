@@ -13,6 +13,8 @@ Here is the weight matrix :
 
 Sample Output:
 
+![image](https://user-images.githubusercontent.com/111742763/218243300-b8ef6acb-80d3-4902-b976-2c7eac6cfce6.png)
+
 
 # Members
 * Abueva, Estrella
