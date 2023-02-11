@@ -24,20 +24,24 @@ namespace Hopfield.Classes
             nrn[8] = new Neuron(m);
         }
 
-        public void Activation(int[] patrn)
+        public int[] Activation(int[] patrn)
         {
             for (int i = 0; i < 9; i++)
             {
-                for (int j = 0; j < 9; j++)
-                {
-                    Console.WriteLine("\n nrn[" + i + "].weightv[" + j + "] is " + nrn[i].weightv[j]);
-                }
-
                 nrn[i].activation = nrn[i].Act(9, patrn);
-                Console.WriteLine("\nactivation is " + nrn[i].activation);
-                output[i] = Threshold(nrn[i].activation);
-                Console.WriteLine("\noutput value is " + output[i] + "\n");
+                output[i] = nrn[i].activation;
             }
+            return output;
+        }
+
+        public int[] ActivationThreshold(int[] patrn)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                nrn[i].activation = nrn[i].Act(9, patrn);
+                output[i] = Threshold(nrn[i].activation);
+            }
+            return output;
         }
 
         public int Threshold(int k)
@@ -46,7 +50,6 @@ namespace Hopfield.Classes
                 return (1);
             else
                 return (-1);
-
         }
     }
 }
