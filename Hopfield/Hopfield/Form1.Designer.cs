@@ -361,6 +361,7 @@
             this.t.Name = "t";
             this.t.Size = new System.Drawing.Size(502, 36);
             this.t.TabIndex = 71;
+            this.t.Click += new System.EventHandler(this.t_Click);
             // 
             // Calculate
             // 

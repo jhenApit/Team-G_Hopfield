@@ -36,6 +36,9 @@ namespace Hopfield
             {
                 btn.BackColor = Color.WhiteSmoke;
             }
+
+            btn.Enabled = true;
+
         }
 
         private void Calculate_Click(object sender, EventArgs e)
@@ -72,20 +75,21 @@ namespace Hopfield
 
             //print network.Activation(pattern)
             str = "";
-            int[] output = network.Activation(pattern);
+
+            network.Activation(pattern);
+
             for (int i = 0; i < 9; i++)
             {
-                str += output[i].ToString() + " ";
+                str += network.output[i].ToString() + " ";
             }
             
             o.Text = str;
 
             str = "";
 
-            output = network.ActivationThreshold(pattern);
             for (int i = 0; i < 9; i++)
             {
-                str += output[i].ToString() + " ";
+                str += network.threshold[i].ToString() + " ";
             }
             t.Text = str;
 
@@ -101,18 +105,23 @@ namespace Hopfield
             Button O08 = (Button)Controls.Find("O08", true)[0];
 
 
-            O00.BackColor = (output[0] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O01.BackColor = (output[1] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O02.BackColor = (output[2] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O03.BackColor = (output[3] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O04.BackColor = (output[4] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O05.BackColor = (output[5] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O06.BackColor = (output[6] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O07.BackColor = (output[7] == 1) ? Color.Maroon : Color.WhiteSmoke;
-            O08.BackColor = (output[8] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O00.BackColor = (network.threshold[0] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O01.BackColor = (network.threshold[1] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O02.BackColor = (network.threshold[2] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O03.BackColor = (network.threshold[3] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O04.BackColor = (network.threshold[4] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O05.BackColor = (network.threshold[5] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O06.BackColor = (network.threshold[6] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O07.BackColor = (network.threshold[7] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O08.BackColor = (network.threshold[8] == 1) ? Color.Maroon : Color.WhiteSmoke;
         }
 
         private void Clear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void t_Click(object sender, EventArgs e)
         {
 
         }
