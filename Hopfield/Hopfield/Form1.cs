@@ -48,20 +48,21 @@ namespace Hopfield
 
             //print network.Activation(pattern)
             str = "";
-            int[] output = network.Activation(pattern);
+
+            network.Activation(pattern);
+
             for (int i = 0; i < 9; i++)
             {
-                str += output[i].ToString() + " ";
+                str += network.output[i].ToString() + " ";
             }
             
             o.Text = str;
 
             str = "";
 
-            output = network.ActivationThreshold(pattern);
             for (int i = 0; i < 9; i++)
             {
-                str += output[i].ToString() + " ";
+                str += network.threshold[i].ToString() + " ";
             }
             t.Text = str;
             
@@ -147,6 +148,11 @@ namespace Hopfield
         private void I08_Click(object sender, EventArgs e)
         {
             I08.BackColor = (I08.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+        }
+
+        private void t_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
