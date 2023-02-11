@@ -36,7 +36,6 @@ namespace Hopfield
             {
                 btn.BackColor = Color.WhiteSmoke;
             }
-            
         }
 
         private void Calculate_Click(object sender, EventArgs e)

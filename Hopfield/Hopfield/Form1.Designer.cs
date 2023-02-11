@@ -80,7 +80,7 @@
             // 
             I00.BackColor = System.Drawing.Color.WhiteSmoke;
             I00.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            I00.Location = new System.Drawing.Point(93, 74);
+            I00.Location = new System.Drawing.Point(94, 74);
             I00.Name = "I00";
             I00.Size = new System.Drawing.Size(75, 57);
             I00.TabIndex = 46;
