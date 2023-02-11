@@ -6,15 +6,6 @@ namespace Hopfield
     {
         public Network network;
         int[] pattern = new int[9];
-        private Button I00;
-        private Button I01;
-        private Button I02;
-        private Button I03;
-        private Button I04;
-        private Button I05;
-        private Button I06;
-        private Button I07;
-        private Button I08;
 
 
         public Form1()
@@ -37,44 +28,53 @@ namespace Hopfield
 
         private void I00_Click(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;
-            if (btn.BackColor == Color.WhiteSmoke)
-            {
-                btn.BackColor = Color.Maroon;
-            } else
-            {
-                btn.BackColor = Color.WhiteSmoke;
-            }
-            
-        }
+            //Button btn = (Button)sender;
+            //if (btn.BackColor == Color.WhiteSmoke)
+            //{
+            //    btn.BackColor = Color.Maroon;
+            //} else
+            //{
+            //    btn.BackColor = Color.WhiteSmoke;
+            //}
 
-        private void label3_Click(object sender, EventArgs e)
-        {
+            Control ctrl = ((Control)sender);
+            switch (ctrl.BackColor.Name)
+            {
+                case "WhiteSmoke":
+                    ctrl.BackColor = Color.Maroon;
+                    break;
+                case "Maroon":
+                    ctrl.BackColor = Color.WhiteSmoke;
+                    break;
+                default:
+                    ctrl.BackColor = Color.WhiteSmoke;
+                    break;
+            }
 
         }
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            //Button I00 = (Button)Controls.Find("I00", true)[0];
-            //Button I01 = (Button)Controls.Find("I01", true)[0];
-            //Button I02 = (Button)Controls.Find("I02", true)[0];
-            //Button I03 = (Button)Controls.Find("I03", true)[0];
-            //Button I04 = (Button)Controls.Find("I04", true)[0];
-            //Button I05 = (Button)Controls.Find("I05", true)[0];
-            //Button I06 = (Button)Controls.Find("I06", true)[0];
-            //Button I07 = (Button)Controls.Find("I07", true)[0];
-            //Button I08 = (Button)Controls.Find("I08", true)[0];
+            Button I00 = (Button)Controls.Find("I00", true)[0];
+            Button I01 = (Button)Controls.Find("I01", true)[0];
+            Button I02 = (Button)Controls.Find("I02", true)[0];
+            Button I03 = (Button)Controls.Find("I03", true)[0];
+            Button I04 = (Button)Controls.Find("I04", true)[0];
+            Button I05 = (Button)Controls.Find("I05", true)[0];
+            Button I06 = (Button)Controls.Find("I06", true)[0];
+            Button I07 = (Button)Controls.Find("I07", true)[0];
+            Button I08 = (Button)Controls.Find("I08", true)[0];
 
-            
-            //pattern[0] = I00.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[1] = I01.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[2] = I02.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[3] = I03.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[4] = I04.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[5] = I05.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[6] = I06.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[7] = I07.BackColor == Color.Maroon ? 1 : -1;
-            //pattern[8] = I08.BackColor == Color.Maroon ? 1 : -1;
+
+            pattern[0] = I00.BackColor == Color.Maroon ? 1 : -1;
+            pattern[1] = I01.BackColor == Color.Maroon ? 1 : -1;
+            pattern[2] = I02.BackColor == Color.Maroon ? 1 : -1;
+            pattern[3] = I03.BackColor == Color.Maroon ? 1 : -1;
+            pattern[4] = I04.BackColor == Color.Maroon ? 1 : -1;
+            pattern[5] = I05.BackColor == Color.Maroon ? 1 : -1;
+            pattern[6] = I06.BackColor == Color.Maroon ? 1 : -1;
+            pattern[7] = I07.BackColor == Color.Maroon ? 1 : -1;
+            pattern[8] = I08.BackColor == Color.Maroon ? 1 : -1;
 
             //print pattern
             string str = "";
