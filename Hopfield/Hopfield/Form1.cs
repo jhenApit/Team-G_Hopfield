@@ -67,15 +67,15 @@ namespace Hopfield
             t.Text = str;
             
 
-            O00.BackColor = (output[0] == 1) ? Color.Maroon : Color.White;
-            O01.BackColor = (output[1] == 1) ? Color.Maroon : Color.White;
-            O02.BackColor = (output[2] == 1) ? Color.Maroon : Color.White;
-            O03.BackColor = (output[3] == 1) ? Color.Maroon : Color.White;
-            O04.BackColor = (output[4] == 1) ? Color.Maroon : Color.White;
-            O05.BackColor = (output[5] == 1) ? Color.Maroon : Color.White;
-            O06.BackColor = (output[6] == 1) ? Color.Maroon : Color.White;
-            O07.BackColor = (output[7] == 1) ? Color.Maroon : Color.White;
-            O08.BackColor = (output[8] == 1) ? Color.Maroon : Color.White;
+            O00.BackColor = (network.output[0] == 1) ? Color.Maroon : Color.White;
+            O01.BackColor = (network.output[1] == 1) ? Color.Maroon : Color.White;
+            O02.BackColor = (network.output[2] == 1) ? Color.Maroon : Color.White;
+            O03.BackColor = (network.output[3] == 1) ? Color.Maroon : Color.White;
+            O04.BackColor = (network.output[4] == 1) ? Color.Maroon : Color.White;
+            O05.BackColor = (network.output[5] == 1) ? Color.Maroon : Color.White;
+            O06.BackColor = (network.output[6] == 1) ? Color.Maroon : Color.White;
+            O07.BackColor = (network.output[7] == 1) ? Color.Maroon : Color.White;
+            O08.BackColor = (network.output[8] == 1) ? Color.Maroon : Color.White;
         }
 
         private void Clear_Click(object sender, EventArgs e)
