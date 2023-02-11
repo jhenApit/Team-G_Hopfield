@@ -27,15 +27,15 @@ namespace Hopfield
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            pattern[0] = I00.BackColor == Color.Maroon ? 1 : -1;
-            pattern[1] = I01.BackColor == Color.Maroon ? 1 : -1;
-            pattern[2] = I02.BackColor == Color.Maroon ? 1 : -1;
-            pattern[3] = I03.BackColor == Color.Maroon ? 1 : -1;
-            pattern[4] = I04.BackColor == Color.Maroon ? 1 : -1;
-            pattern[5] = I05.BackColor == Color.Maroon ? 1 : -1;
-            pattern[6] = I06.BackColor == Color.Maroon ? 1 : -1;
-            pattern[7] = I07.BackColor == Color.Maroon ? 1 : -1;
-            pattern[8] = I08.BackColor == Color.Maroon ? 1 : -1;
+            pattern[0] = I00.BackColor == Color.Red ? 1 : -1;
+            pattern[1] = I01.BackColor == Color.Red ? 1 : -1;
+            pattern[2] = I02.BackColor == Color.Red ? 1 : -1;
+            pattern[3] = I03.BackColor == Color.Red ? 1 : -1;
+            pattern[4] = I04.BackColor == Color.Red ? 1 : -1;
+            pattern[5] = I05.BackColor == Color.Red ? 1 : -1;
+            pattern[6] = I06.BackColor == Color.Red ? 1 : -1;
+            pattern[7] = I07.BackColor == Color.Red ? 1 : -1;
+            pattern[8] = I08.BackColor == Color.Red ? 1 : -1;
 
             //print pattern
             string str = "";
@@ -105,47 +105,47 @@ namespace Hopfield
 
         private void I00_Click(object sender, EventArgs e)
         {
-            I00.BackColor = (I00.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I00.BackColor = (I01.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I01_Click(object sender, EventArgs e)
         {
-            I01.BackColor = (I01.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I01.BackColor = (I01.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I02_Click(object sender, EventArgs e)
         {
-            I02.BackColor = (I02.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I02.BackColor = (I02.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I03_Click(object sender, EventArgs e)
         {
-            I03.BackColor = (I03.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I03.BackColor = (I03.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I04_Click(object sender, EventArgs e)
         {
-            I04.BackColor = (I04.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I04.BackColor = (I04.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I05_Click(object sender, EventArgs e)
         {
-            I05.BackColor = (I05.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I05.BackColor = (I05.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I06_Click(object sender, EventArgs e)
         {
-            I06.BackColor = (I06.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I06.BackColor = (I06.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I07_Click(object sender, EventArgs e)
         {
-            I07.BackColor = (I07.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I07.BackColor = (I07.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void I08_Click(object sender, EventArgs e)
         {
-            I08.BackColor = (I08.BackColor == Color.WhiteSmoke) ? Color.Maroon : Color.WhiteSmoke;
+            I08.BackColor = (I08.BackColor == Color.WhiteSmoke) ? Color.Red : Color.WhiteSmoke;
         }
 
         private void t_Click(object sender, EventArgs e)
