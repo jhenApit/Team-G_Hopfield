@@ -7,7 +7,6 @@ namespace Hopfield
         public Network network;
         int[] pattern = new int[9];
 
-
         public Form1()
         {
             InitializeComponent();
@@ -22,8 +21,6 @@ namespace Hopfield
                                   new int[] { 0, 2, 0, 0, 0, 0, 0, 0, 0 },
                                   new int[] { 2, 0, 2, -2, -2, -2, 2, 0, 0 }
                                   );
-
- 
         }
 
         private void I00_Click(object sender, EventArgs e)
@@ -38,7 +35,6 @@ namespace Hopfield
             }
 
             btn.Enabled = true;
-
         }
 
         private void Calculate_Click(object sender, EventArgs e)
@@ -52,7 +48,6 @@ namespace Hopfield
             Button I06 = (Button)Controls.Find("I06", true)[0];
             Button I07 = (Button)Controls.Find("I07", true)[0];
             Button I08 = (Button)Controls.Find("I08", true)[0];
-
 
             pattern[0] = I00.BackColor == Color.Maroon ? 1 : -1;
             pattern[1] = I01.BackColor == Color.Maroon ? 1 : -1;
@@ -120,6 +115,20 @@ namespace Hopfield
         private void t_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void I01_Click(object sender, EventArgs e)
+        {
+            Button I01 = (Button)sender;
+
+            if (I01.BackColor == Color.WhiteSmoke)
+            {
+                I01.BackColor = Color.Maroon;
+            }
+            else
+            {
+                I01.BackColor = Color.WhiteSmoke;
+            }
         }
     }
 }

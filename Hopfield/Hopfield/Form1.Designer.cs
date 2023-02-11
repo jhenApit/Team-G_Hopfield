@@ -98,7 +98,7 @@
             I01.TabIndex = 47;
             I01.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             I01.UseVisualStyleBackColor = false;
-            I01.Click += new System.EventHandler(this.I00_Click);
+            I01.Click += new System.EventHandler(this.I01_Click);
             // 
             // I02
             // 
@@ -441,5 +441,23 @@
         private Label t;
         private Button Calculate;
         private Button Clear;
+        private Button I01;
+        private Button I02;
+        private Button I03;
+        private Button I04;
+        private Button I05;
+        private Button I06;
+        private Button I07;
+        private Button I08;
+        private Button O01;
+        private Button O02;
+        private Button O03;
+        private Button O04;
+        private Button O05;
+        private Button O06;
+        private Button O07;
+        private Button O08;
+        private Button O00;
+        private Button I00;
     }
 }
