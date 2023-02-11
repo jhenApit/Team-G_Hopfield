@@ -78,25 +78,25 @@ namespace Hopfield
 
         private void Clear_Click(object sender, EventArgs e)
         {
-            I00.BackColor = SystemColors.Control;
-            I01.BackColor = SystemColors.Control;
-            I02.BackColor = SystemColors.Control;
-            I03.BackColor = SystemColors.Control;
-            I04.BackColor = SystemColors.Control;
-            I05.BackColor = SystemColors.Control;
-            I06.BackColor = SystemColors.Control;
-            I07.BackColor = SystemColors.Control;
-            I08.BackColor = SystemColors.Control;
+            I00.BackColor = Color.WhiteSmoke;
+            I01.BackColor = Color.WhiteSmoke;
+            I02.BackColor = Color.WhiteSmoke;
+            I03.BackColor = Color.WhiteSmoke;
+            I04.BackColor = Color.WhiteSmoke;
+            I05.BackColor = Color.WhiteSmoke;
+            I06.BackColor = Color.WhiteSmoke;
+            I07.BackColor = Color.WhiteSmoke;
+            I08.BackColor = Color.WhiteSmoke;
             
-            O00.BackColor = SystemColors.Control;
-            O01.BackColor = SystemColors.Control;
-            O02.BackColor = SystemColors.Control;
-            O03.BackColor = SystemColors.Control;
-            O04.BackColor = SystemColors.Control;
-            O05.BackColor = SystemColors.Control;
-            O06.BackColor = SystemColors.Control;
-            O07.BackColor = SystemColors.Control;
-            O08.BackColor = SystemColors.Control;
+            O00.BackColor = Color.WhiteSmoke;
+            O01.BackColor = Color.WhiteSmoke;
+            O02.BackColor = Color.WhiteSmoke;
+            O03.BackColor = Color.WhiteSmoke;
+            O04.BackColor = Color.WhiteSmoke;
+            O05.BackColor = Color.WhiteSmoke;
+            O06.BackColor = Color.WhiteSmoke;
+            O07.BackColor = Color.WhiteSmoke;
+            O08.BackColor = Color.WhiteSmoke;
 
             ni.ResetText();
             o.ResetText();
