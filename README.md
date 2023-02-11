@@ -13,7 +13,14 @@ The file given is the c++ implementation of a non continuous Hopfield network mo
 
 ## Sample Output:
 
-![image](https://user-images.githubusercontent.com/111742763/218246955-e5bcac2f-23ca-46ac-bd32-e8d1416e1389.png)
+![image](https://user-images.githubusercontent.com/95534475/218250036-da5459c2-84cb-4564-989a-ab35ae746433.png)
+
+![image](https://user-images.githubusercontent.com/95534475/218250067-623378eb-4fff-4c6d-81e5-8b545eeb3934.png)
+
+![image](https://user-images.githubusercontent.com/95534475/218250080-4e45dc2d-2114-40fd-8b3e-07534335c216.png)
+
+![image](https://user-images.githubusercontent.com/95534475/218250094-bf8c191d-7c34-4b73-993c-e507d39ecb39.png)
+
 
 # Members
 * Abueva, Estrella
