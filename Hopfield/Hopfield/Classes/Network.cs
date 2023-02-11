@@ -10,6 +10,7 @@ namespace Hopfield.Classes
     {
         private Neuron[] nrn = new Neuron[9];
         public int[] output = new int[9];
+        public int[] threshold = new int[9];
 
         public Network(int[] a, int[] b, int[] c, int[] d, int[] f, int[] j, int[] k, int[] l, int[] m)
         {
@@ -26,21 +27,17 @@ namespace Hopfield.Classes
 
         public int[] Activation(int[] patrn)
         {
+            Array.Copy(patrn, threshold, patrn.Length);
+
             for (int i = 0; i < 9; i++)
             {
                 nrn[i].activation = nrn[i].Act(9, patrn);
                 output[i] = nrn[i].activation;
-            }
-            return output;
-        }
+                threshold[i] = Threshold(output[i]);
+                patrn[i] = threshold[i];
 
-        public int[] ActivationThreshold(int[] patrn)
-        {
-            for (int i = 0; i < 9; i++)
-            {
-                nrn[i].activation = nrn[i].Act(9, patrn);
-                output[i] = Threshold(nrn[i].activation);
             }
+
             return output;
         }
 
