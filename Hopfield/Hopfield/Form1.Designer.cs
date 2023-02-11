@@ -384,6 +384,7 @@
             this.Clear.TabIndex = 74;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Form1
             // 
@@ -430,7 +431,6 @@
 
         #endregion
         private Label ni;
-        private Button I00;
         private Label label1;
         private Label label2;
         private Label label3;
