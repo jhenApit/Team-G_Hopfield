@@ -15,7 +15,7 @@ namespace Hopfield
             network = new Network(new int[] { 0, 0, 2, -2, -2, -2, 2, 0, 2 },
                                   new int[] { 0, 0, 0, 0, 0, 0, 0, 2, 0 },
                                   new int[] { 2, 0, 0, -2, -2, -2, 2, 0, 2 },
-                                  new int[] { 2, 0, -2, 0, 2, 2, -2, 0, 2 },
+                                  new int[] { 2, 0, -2, 0, 2, 2, -2, 0, -2 },
                                   new int[] { 2, 0, -2, 2, 0, 2, -2, 0, -2 },
                                   new int[] { 2, 0, -2, 2, 2, 0, -2, 0, -2 },
                                   new int[] { 2, 0, 2, -2, -2, -2, 0, 0, 2 },
@@ -28,29 +28,15 @@ namespace Hopfield
 
         private void I00_Click(object sender, EventArgs e)
         {
-            //Button btn = (Button)sender;
-            //if (btn.BackColor == Color.WhiteSmoke)
-            //{
-            //    btn.BackColor = Color.Maroon;
-            //} else
-            //{
-            //    btn.BackColor = Color.WhiteSmoke;
-            //}
-
-            Control ctrl = ((Control)sender);
-            switch (ctrl.BackColor.Name)
+            Button btn = (Button)sender;
+            if (btn.BackColor == Color.WhiteSmoke)
             {
-                case "WhiteSmoke":
-                    ctrl.BackColor = Color.Maroon;
-                    break;
-                case "Maroon":
-                    ctrl.BackColor = Color.WhiteSmoke;
-                    break;
-                default:
-                    ctrl.BackColor = Color.WhiteSmoke;
-                    break;
+                btn.BackColor = Color.Maroon;
+            } else
+            {
+                btn.BackColor = Color.WhiteSmoke;
             }
-
+            
         }
 
         private void Calculate_Click(object sender, EventArgs e)
