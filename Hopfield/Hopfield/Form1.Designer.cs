@@ -78,7 +78,7 @@
             // 
             // I00
             // 
-            I00.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I00.BackColor = System.Drawing.Color.WhiteSmoke;
             I00.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I00.Location = new System.Drawing.Point(93, 74);
             I00.Name = "I00";
@@ -90,7 +90,7 @@
             // 
             // I01
             // 
-            I01.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I01.BackColor = System.Drawing.Color.WhiteSmoke;
             I01.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I01.Location = new System.Drawing.Point(174, 74);
             I01.Name = "I01";
@@ -102,7 +102,7 @@
             // 
             // I02
             // 
-            I02.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I02.BackColor = System.Drawing.Color.WhiteSmoke;
             I02.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I02.Location = new System.Drawing.Point(255, 74);
             I02.Name = "I02";
@@ -114,7 +114,7 @@
             // 
             // I03
             // 
-            I03.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I03.BackColor = System.Drawing.Color.WhiteSmoke;
             I03.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I03.Location = new System.Drawing.Point(93, 137);
             I03.Name = "I03";
@@ -126,7 +126,7 @@
             // 
             // I04
             // 
-            I04.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I04.BackColor = System.Drawing.Color.WhiteSmoke;
             I04.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I04.Location = new System.Drawing.Point(174, 137);
             I04.Name = "I04";
@@ -138,7 +138,7 @@
             // 
             // I05
             // 
-            I05.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I05.BackColor = System.Drawing.Color.WhiteSmoke;
             I05.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I05.Location = new System.Drawing.Point(255, 137);
             I05.Name = "I05";
@@ -150,7 +150,7 @@
             // 
             // I06
             // 
-            I06.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I06.BackColor = System.Drawing.Color.WhiteSmoke;
             I06.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I06.Location = new System.Drawing.Point(93, 200);
             I06.Name = "I06";
@@ -162,7 +162,7 @@
             // 
             // I07
             // 
-            I07.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I07.BackColor = System.Drawing.Color.WhiteSmoke;
             I07.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I07.Location = new System.Drawing.Point(174, 200);
             I07.Name = "I07";
@@ -174,7 +174,7 @@
             // 
             // I08
             // 
-            I08.BackColor = System.Drawing.SystemColors.ButtonFace;
+            I08.BackColor = System.Drawing.Color.WhiteSmoke;
             I08.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             I08.Location = new System.Drawing.Point(255, 200);
             I08.Name = "I08";
@@ -186,7 +186,7 @@
             // 
             // O08
             // 
-            O08.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O08.BackColor = System.Drawing.Color.WhiteSmoke;
             O08.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O08.Location = new System.Drawing.Point(570, 200);
             O08.Name = "O08";
@@ -197,7 +197,7 @@
             // 
             // O07
             // 
-            O07.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O07.BackColor = System.Drawing.Color.WhiteSmoke;
             O07.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O07.Location = new System.Drawing.Point(489, 200);
             O07.Name = "O07";
@@ -208,7 +208,7 @@
             // 
             // O06
             // 
-            O06.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O06.BackColor = System.Drawing.Color.WhiteSmoke;
             O06.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O06.Location = new System.Drawing.Point(408, 200);
             O06.Name = "O06";
@@ -219,7 +219,7 @@
             // 
             // O05
             // 
-            O05.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O05.BackColor = System.Drawing.Color.WhiteSmoke;
             O05.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O05.Location = new System.Drawing.Point(570, 137);
             O05.Name = "O05";
@@ -230,7 +230,7 @@
             // 
             // O04
             // 
-            O04.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O04.BackColor = System.Drawing.Color.WhiteSmoke;
             O04.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O04.Location = new System.Drawing.Point(489, 137);
             O04.Name = "O04";
@@ -241,7 +241,7 @@
             // 
             // O03
             // 
-            O03.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O03.BackColor = System.Drawing.Color.WhiteSmoke;
             O03.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O03.Location = new System.Drawing.Point(408, 137);
             O03.Name = "O03";
@@ -252,7 +252,7 @@
             // 
             // O02
             // 
-            O02.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O02.BackColor = System.Drawing.Color.WhiteSmoke;
             O02.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O02.Location = new System.Drawing.Point(570, 74);
             O02.Name = "O02";
@@ -263,7 +263,7 @@
             // 
             // O01
             // 
-            O01.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O01.BackColor = System.Drawing.Color.WhiteSmoke;
             O01.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O01.Location = new System.Drawing.Point(489, 74);
             O01.Name = "O01";
@@ -274,7 +274,7 @@
             // 
             // O00
             // 
-            O00.BackColor = System.Drawing.SystemColors.ButtonFace;
+            O00.BackColor = System.Drawing.Color.WhiteSmoke;
             O00.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             O00.Location = new System.Drawing.Point(408, 74);
             O00.Name = "O00";

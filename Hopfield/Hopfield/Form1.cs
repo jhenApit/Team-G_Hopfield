@@ -10,7 +10,7 @@ namespace Hopfield
         {
             InitializeComponent();
             network = new Network(new int[] { 0, 0, 2, -2, -2, -2, 2, 0, 2 },
-                                  new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 2 },
+                                  new int[] { 0, 0, 0, 0, 0, 0, 0, 2, 0 },
                                   new int[] { 2, 0, 0, -2, -2, -2, 2, 0, 2 },
                                   new int[] { 2, 0, -2, 0, 2, 2, -2, 0, 2 },
                                   new int[] { 2, 0, -2, 2, 0, 2, -2, 0, -2 },
@@ -82,6 +82,32 @@ namespace Hopfield
                 str += output[i].ToString() + " ";
             }
             t.Text = str;
+
+            //output matrix
+            Button O00 = (Button)Controls.Find("O00", true)[0];
+            Button O01 = (Button)Controls.Find("O01", true)[0];
+            Button O02 = (Button)Controls.Find("O02", true)[0];
+            Button O03 = (Button)Controls.Find("O03", true)[0];
+            Button O04 = (Button)Controls.Find("O04", true)[0];
+            Button O05 = (Button)Controls.Find("O05", true)[0];
+            Button O06 = (Button)Controls.Find("O06", true)[0];
+            Button O07 = (Button)Controls.Find("O07", true)[0];
+            Button O08 = (Button)Controls.Find("O08", true)[0];
+
+
+            O00.BackColor = (output[0] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O01.BackColor = (output[1] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O02.BackColor = (output[2] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O03.BackColor = (output[3] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O04.BackColor = (output[4] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O05.BackColor = (output[5] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O06.BackColor = (output[6] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O07.BackColor = (output[7] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            O08.BackColor = (output[8] == 1) ? Color.Maroon : Color.WhiteSmoke;
+
+
+
+
         } 
     }
 }
