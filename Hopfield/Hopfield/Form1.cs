@@ -22,8 +22,6 @@ namespace Hopfield
                                   new int[] { 0, 2, 0, 0, 0, 0, 0, 0, 0 },
                                   new int[] { 2, 0, 2, -2, -2, -2, 2, 0, 0 }
                                   );
-
-
         }
 
         private void I00_Click(object sender, EventArgs e)
