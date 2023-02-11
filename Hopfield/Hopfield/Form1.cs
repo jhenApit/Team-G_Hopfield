@@ -23,11 +23,10 @@ namespace Hopfield
                                   new int[] { 2, 0, 2, -2, -2, -2, 2, 0, 0 }
                                   );
 
- 
         }
 
         private void Calculate_Click(object sender, EventArgs e)
-        { 
+        {
             pattern[0] = I00.BackColor == Color.Maroon ? 1 : -1;
             pattern[1] = I01.BackColor == Color.Maroon ? 1 : -1;
             pattern[2] = I02.BackColor == Color.Maroon ? 1 : -1;
