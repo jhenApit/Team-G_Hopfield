@@ -65,17 +65,15 @@ namespace Hopfield
                 str += network.threshold[i].ToString() + " ";
             }
             t.Text = str;
-            
 
-            O00.BackColor = (network.output[0] == 1) ? Color.Maroon : Color.White;
-            O01.BackColor = (network.output[1] == 1) ? Color.Maroon : Color.White;
-            O02.BackColor = (network.output[2] == 1) ? Color.Maroon : Color.White;
-            O03.BackColor = (network.output[3] == 1) ? Color.Maroon : Color.White;
-            O04.BackColor = (network.output[4] == 1) ? Color.Maroon : Color.White;
-            O05.BackColor = (network.output[5] == 1) ? Color.Maroon : Color.White;
-            O06.BackColor = (network.output[6] == 1) ? Color.Maroon : Color.White;
-            O07.BackColor = (network.output[7] == 1) ? Color.Maroon : Color.White;
-            O08.BackColor = (network.output[8] == 1) ? Color.Maroon : Color.White;
+
+
+            Control[] controls = new Control[] { O00, O01, O02, O03, O04, O05, O06, O07, O08 };
+            for (int i = 0; i < controls.Length; i++)
+            {
+                controls[i].BackColor = (network.threshold[i] == 1) ? Color.Maroon : Color.WhiteSmoke;
+            }
+
         }
 
         private void Clear_Click(object sender, EventArgs e)
