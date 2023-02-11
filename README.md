@@ -6,12 +6,12 @@ The file given is the c++ implementation of a non continuous Hopfield network mo
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/111742763/218241984-038a5a28-d34b-4fe6-954e-d0d6f1842540.png)
 
 
-Here is the weight matrix :
+## Here is the weight matrix :
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/111742763/218241950-620dc0e6-1de4-41e2-87a9-095062f25f4d.png)
 
 
-Sample Output:
+## Sample Output:
 
 ![image](https://user-images.githubusercontent.com/111742763/218246955-e5bcac2f-23ca-46ac-bd32-e8d1416e1389.png)
 
