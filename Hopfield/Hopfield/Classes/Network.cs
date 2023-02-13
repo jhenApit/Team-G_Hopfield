@@ -27,15 +27,21 @@ namespace Hopfield.Classes
 
         public int[] Activation(int[] patrn)
         {
+            int repeat = 0;
             Array.Copy(patrn, threshold, patrn.Length);
 
-            for (int i = 0; i < 9; i++)
+            while (repeat != 5)
             {
-                nrn[i].activation = nrn[i].Act(9, patrn);
-                output[i] = nrn[i].activation;
-                threshold[i] = Threshold(output[i]);
-                patrn[i] = threshold[i];
+                for (int i = 0; i < 9; i++)
+                {
+                    nrn[i].activation = nrn[i].Act(9, patrn);
+                    output[i] = nrn[i].activation;
+                    threshold[i] = Threshold(output[i]);
+                    patrn[i] = threshold[i];
 
+                }
+
+                repeat++;
             }
 
             return output;
